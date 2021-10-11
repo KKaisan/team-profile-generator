@@ -5,6 +5,8 @@ var Engineer = require('./lib/Engineer');
 var Intern = require('./lib/Intern');
 var generatePage = require('./src/page-template');
 var writeFile = require('./src/generate-site')
+var fs = require("fs");
+var path = require("path");
 
 let manager = [];
 let engineer = [];
