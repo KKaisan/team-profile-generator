@@ -1,12 +1,10 @@
-var inquirer = require('inquirer');
-var Employee = require('./lib/Employee');
-var Manager = require('./lib/Manager');
-var Engineer = require('./lib/Engineer');
-var Intern = require('./lib/Intern');
-var generatePage = require('./src/page-template');
-var writeFile = require('./src/generate-site')
-var fs = require("fs");
-var path = require("path");
+const inquirer = require('inquirer');
+const Employee = require('./lib/Employee');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+const generatePage = require('./src/page-template');
+const writeFile = require('./src/generate-site')
 
 let manager = [];
 let engineer = [];
@@ -48,7 +46,7 @@ function Prompt() {
                     },
                     {
                         type:'confirm',
-                        name:'add',
+                        name:'anotherEntry',
                         message: "What you like to add another employee?",
                         default: false
                     }])
