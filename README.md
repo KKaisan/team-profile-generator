@@ -2,6 +2,8 @@
 
 This application lets a manager create a team profile, with specific information based on the team members role
 
+Watch the demonstration @
+
 ## Installation
 
 To install this app, clone this repository and run an NPM install

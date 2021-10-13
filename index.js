@@ -47,7 +47,7 @@ function Prompt() {
                     {
                         type:'confirm',
                         name:'anotherEntry',
-                        message: "What you like to add another employee?",
+                        message: "Would you like to add another employee?",
                         default: false
                     }])
                     .then(({office, anotherEntry}) => {
